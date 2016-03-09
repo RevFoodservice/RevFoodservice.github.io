@@ -35,6 +35,7 @@ html,body{
     line-height: 1.5; /* works out to 30px */
     font-weight: 300;
     background: #E8E8E8;
+
     height:100%;
     color: black;
 
@@ -51,7 +52,12 @@ html,body{
         background-color: white;
     position: relative;
 }
-
+.container{
+        width: 960px;
+        margin:  auto;
+        background-color: white;
+    position: relative;
+}
 header{
     content: '';
     display: block;
@@ -109,9 +115,11 @@ nav ul li a{
 
 }
 nav ul li a:hover{
+	  border-radius: 3px;
     background-color: #E60000;
     font-weight: 600;
-
+    color: white;
+		  text-decoration: none;
 }
 #ribbon {
  width:930px;
@@ -268,7 +276,7 @@ footer span{
     background-color: white;
 }
 
-
+/*
 #Bettie{
     width: 430px;
     float: left;
@@ -279,53 +287,85 @@ footer span{
     border-radius:5px;
     padding: 5px 10px 15px 10px;
     }
-
+*/
 #BetPic {
 
-     margin: 5px 0px 20px 160px; /* t r b L */
-
+/*     margin: 5px 0px 20px 160px; /* t r b L */
+		margin:0 auto;
     width:120px;
     height:120px;
+display: block;
 
 }
 
 .PicBorder img{
         border-radius:5px;
-   }
-#Bettie p{
-    font-family:'Arial';
-    font-size: 16px;
-    font-weight: 500;
-    height: 200px;
-    text-align:justify;
-    margin: 5px 20px 40px 20px;/* t r b L */
-}
 
-.bl {
+   }
+.Contact1  {
+	padding: 5px 0px 15px 0px;
+	/*border: 1px solid black;
+	border-radius:5px;*/
+
+
+}
+.Contact1 p{
+	     font-family:'Arial';
+	     font-size: 16px;
+	     font-weight: 500;
+	  /*   height: 200px;*/
+	     text-align:justify;
+	     /*margin: 5px 20px 40px 20px; t r b L*/
+	 		padding: 10px 10px 0px 10px;
+	 }
+.Contact2  {
+	 	margin-top:10px;
+/*	 	border: 1px solid black;
+	 	border-radius:5px; */
+	 	padding: 5px 2px 15px 4px;
+
+	 }
+
+
+.Contact2 p{
+	 	     font-family:'Arial';
+	 	     font-size: 14px;
+	 	     font-weight: 500;
+	 	  /*   height: 200px;*/
+	 	     text-align:justify;
+	 	     /*margin: 5px 20px 40px 20px;*/
+	 	 		padding: 10px 2px 0px 2px;
+	 	 }
+
+
+.Contact1 .bl {
     margin-left: 0;
-    padding-right: 0;
-    padding-left: 2px;
     list-style-type: none;
     font-weight: 500;
     line-height: 25px;
     width:400px;
 		font-size: 16px;
 }
+.Contact2 .bl {
+    margin-left: 0;
+    list-style-type: none;
+    font-weight: 500;
+    line-height: 25px;
+		font-size: 13px;
+}
+
 
 .bl li::before {
     content:open-quote;
     margin-right: 5px;
-
     background-image: url(../images/Check.gif);
-
-
     color: white;
     font-weight: bold;
     padding: 3px 8px;
 
 }
 
-
+/*
 #Chris{
    width: 430px;
     float: right;
@@ -335,24 +375,26 @@ footer span{
     border-radius:5px;
     padding: 5px 10px 15px 10px;
 }
-
+*/
 #ChrisPic {
 
-     margin: 5px 0px 20px 160px;
+/*     margin: 5px 0px 20px 160px;*/
     width:112px;
     height:119px;
+		margin:0 auto;
+display: block;
 
 }
-
+/*
 #Chris p{
     font-family:'Arial';
     font-size: 16px;
     font-weight: 500;
     height: 200px;
     text-align:justify;
-    margin: 5px 20px 40px 20px;/* t r b L */
+    margin: 5px 20px 40px 20px;
 }
-
+*/
 
 #NewsContent {
     font-size: 16px;
@@ -612,16 +654,8 @@ embed{
     font-size: 14px;
     margin: 5px 10px 10px 10px;/* t r b L */
 }
-    .bl {
-        width:260px;
-         font-size: 12px;
 
-    line-height: 20px;
-    }
-    .bl li::before {
-    margin-right: 0px;
 
-}
     #Chris {
          width:auto;
         height:auto;
@@ -642,6 +676,31 @@ embed{
          font-size: 14px;
     margin: 5px 10px 10px 10px;/* t r b L */
     }
+
+		.Contact2  {
+		 padding: 5px 20px 5px 20px;
+		}
+		.Contact1 p{
+			     font-size: 14px;
+			     margin: 5px 5px 10px 5px;/* t r b L */
+			 }
+
+	 		.Contact2 p{
+	 			     font-size: 14px;
+	 			     margin: 5px 5px 10px 5px;/* t r b L */
+	 			 }
+
+				 .Contact1 .bl {
+				  font-size: 13px;
+	  			margin: 5px 5px 10px 20px;/* t r b L */
+
+				 }
+
+				 				 .Contact2 .bl {
+									 font-size: 13px;
+ 					  			margin: 5px 5px 10px 20px;/* t r b L */
+				 				 }
+
 
     #NewsContent {
         height: 800px;
