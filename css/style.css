@@ -30,8 +30,8 @@ dark red : #6b0f18;
 	background: red;
 }
 html,body{
-   /*font-family: 'loraregular','neutonregular'; */
-	 font-family: Calibri, Arial, sans-serif ;
+   /*font-family: 'Arial','Calibri'; */
+	 font-family: 'Calibri', 'Arial', 'sans-serif' ;
     background: #E8E8E8;
     height:100%;
 }
@@ -108,7 +108,7 @@ nav ul li a:hover{
 }
 #ribbon {
  width:930px;
-  font-family: 'neutonregular';
+	  font-family: 'Calibri';
     text-align: center;
     background:  #e61e26;
     height:25px;
@@ -247,7 +247,7 @@ footer span{
 
     left:640px;
     width:200px;
-     font-family:'neutonregular';
+     font-family:'Calibri';
     color:  #E60000;
     font-size:25px;
      border: 2px solid #E60000;
@@ -286,7 +286,7 @@ footer span{
         border-radius:5px;
    }
 #Bettie p{
-    font-family:'neutonregular';
+    font-family:'Calibri';
     font-size: 22px;
     font-weight: 500;
     height: 200px;
@@ -337,7 +337,7 @@ footer span{
 }
 
 #Chris p{
-    font-family:'neutonregular';
+    font-family:'Calibri';
     font-size: 22px;
     font-weight: 500;
     height: 200px;
@@ -705,13 +705,7 @@ box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
 
 
 @font-face {
-    font-family: 'loraregular';
-    src: url('../fonts/lora-regular-webfont.eot');
-    src: url('../fonts/lora-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lora-regular-webfont.woff2') format('woff2'),
-         url('../fonts/lora-regular-webfont.woff') format('woff'),
-         url('../fonts/lora-regular-webfont.ttf') format('truetype'),
-         url('../fonts/lora-regular-webfont.svg#loraregular') format('svg');
+    font-family: 'Arial';
     font-weight: normal;
     font-style: normal;
 
@@ -721,14 +715,8 @@ box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
 
 
 @font-face {
-    font-family: 'neutonregular';
-    src: url('../fonts/neuton-regular-webfont.eot');
-    src: url('../fonts/neuton-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/neuton-regular-webfont.woff2') format('woff2'),
-         url('../fonts/neuton-regular-webfont.woff') format('woff'),
-         url('../fonts/neuton-regular-webfont.ttf') format('truetype'),
-         url('../fonts/neuton-regular-webfont.svg#neutonregular') format('svg');
-    font-weight: normal;
+    font-family: 'Calibri';
+      font-weight: normal;
     font-style: normal;
 
 }
