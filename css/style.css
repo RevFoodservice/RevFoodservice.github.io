@@ -30,11 +30,20 @@ dark red : #6b0f18;
 	background: red;
 }
 html,body{
-   /*font-family: 'Arial','Calibri'; */
-	 font-family: 'Calibri', 'Arial', 'sans-serif' ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5; /* works out to 30px */
+    font-weight: 300;
     background: #E8E8E8;
     height:100%;
+    color: black;
+
+
 }
+.REV {
+    font-style:italic;
+}
+
 /* set page width and center the layout */
 #wrapper{
         width: 960px;
@@ -52,9 +61,7 @@ header{
 }
 
 /* REV is a trademark and should be italics */
-.REV {
-    font-style:italic;
-}
+
 .REVred {
     color:  #E60000;;
 }
@@ -337,7 +344,7 @@ footer span{
 }
 
 #Chris p{
-    font-family:'Calibri';
+    font-family:'Arial';
     font-size: 22px;
     font-weight: 500;
     height: 200px;
