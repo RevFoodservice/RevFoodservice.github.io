@@ -251,7 +251,7 @@ footer span{
     list-style-type: disc;
     font-weight: 700;
     line-height: 40px;
-    top: 300px;
+    top: 250px;
  position: absolute;
 
     }
@@ -259,16 +259,14 @@ footer span{
         left:20px;
 				background-color: Gainsboro ;
 					padding-right: 50px;
-					padding-top: 50px;
-					padding-bottom: 50px;
+
    }
 
 .sl2 {
         left:480px;
 				background-color: Gainsboro ;
 				padding-right: 50px;
-				padding-top: 50px;
-				padding-bottom: 50px;
+
 }
 .sl3 {
 
@@ -300,6 +298,11 @@ footer span{
     padding: 5px 10px 15px 10px;
     }
 */
+.ServicesCharts {
+
+    width:300px;
+
+}
 #BetPic {
 
 /*     margin: 5px 0px 20px 160px; /* t r b L */
