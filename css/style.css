@@ -259,12 +259,16 @@ footer span{
         left:20px;
 				background-color: Gainsboro ;
 					padding-right: 50px;
+					padding-top: 50px;
+					padding-bottom: 50px;
    }
 
 .sl2 {
         left:480px;
 				background-color: Gainsboro ;
 				padding-right: 50px;
+				padding-top: 50px;
+				padding-bottom: 50px;
 }
 .sl3 {
 
