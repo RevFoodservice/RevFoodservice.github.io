@@ -213,8 +213,8 @@ footer span{
 #Par2 {
 /*  font-size: 14px;*/
      text-align:justify;
-    width:360px;
-       padding: 0px 20px 5px 50px; /* t r b L */
+    width:330px;
+       padding: 0px 50px 5px 50px; /* t r b L */
 			 margin-right: 30px;
      position: absolute;
          top: 300px;
