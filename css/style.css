@@ -72,6 +72,10 @@ html, body {
 }
 .REV {
   font-style: italic;
+  font-weight: bold;
+
+ 
+
 }
 
 /* set page width and center the layout */
@@ -94,6 +98,12 @@ header {
   height: 70px;
   width: 249px;
   background: transparent url(../images/REVLogo60.png) no-repeat top center;
+}
+
+p.pfooter
+{
+  padding: 10px 20px 0px 0px;
+  /* t r b L */
 }
 
 /* REV is a trademark and should be italics */
@@ -156,11 +166,13 @@ nav ul li a:hover {
 }
 #ribbon {
   width: 930px;
+    color: white;
   font-family: 'Arial';
   text-align: center;
   background: #e61e26;
   height: 25px;
-  border-radius: 10px;
+  border-radius: 10px
+  font-weight:500;
   margin: 0px 10px 5px 10px;
   /* t r b L */
   /* font-family: sans-serif;*/
@@ -170,7 +182,6 @@ nav ul li a:hover {
 #ribbon span {
   font-size: 16px;
   color: white;
-  font-weight: 500;
 }
 #HomeContent {
   width: 930px;
@@ -215,12 +226,9 @@ footer {
   width: 960px;
   margin: auto;
   text-align: right;
+ 
 }
-footer span {
-  padding: 10px 20px 0px 0px;
-  /* t r b L */
-  font-size: 12px;
-}
+
 #AdvContent {
   font-size: 16px;
   font-weight: 500;
