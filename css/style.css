@@ -370,7 +370,7 @@ footer {
   display: block;
 }
 .PicBorder img {
-  border-radius: 5px;
+  border-radius: 50%;
 }
 .Contact1 {
   padding: 5px 0px 15px 0px;
