@@ -370,9 +370,7 @@ footer {
   display: block;
 }
 .PicBorder img {
-  //border-radius: 50%;
-	position: relative;
-    float: left;
+  border-radius: 50%;	
     width:  100px;
     height: 100px;
     background-position: 50% 50%;
