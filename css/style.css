@@ -370,14 +370,14 @@ footer {
   display: block;
 }
 .PicBorder img {
-  border-radius: 10px;	
+  border-radius: 50%;	
     //width:  100px;
     //height: 100px;
-    //display: block;
+    display: block;
     margin: 0 auto;
-   // background-position: 50% 50%;
-   // background-repeat:   no-repeat;
-   // background-size:     cover;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
 .Contact1 {
   padding: 5px 0px 15px 0px;
