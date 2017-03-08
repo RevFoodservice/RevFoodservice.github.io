@@ -376,8 +376,8 @@ footer {
     display: block;
     margin: 0 auto;
    // background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+   // background-repeat:   no-repeat;
+   // background-size:     cover;
 }
 .Contact1 {
   padding: 5px 0px 15px 0px;
