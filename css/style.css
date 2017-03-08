@@ -371,9 +371,9 @@ footer {
 }
 .PicBorder img {
   border-radius: 10px;	
-    width:  120px;
+    width:  100px;
     //height: 100px;
-    display: block;
+    //display: block;
     margin: 0 auto;
    // background-position: 50% 50%;
    // background-repeat:   no-repeat;
