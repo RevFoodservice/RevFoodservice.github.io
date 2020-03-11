@@ -16,40 +16,47 @@
 </head>
 
   
-  
-   <Header class="header">
-  <a href="" class="logo">REV FOODSERVICE</a>
-  <input class="menu-btn" type="checkbox" id="menu-btn" />
-  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
- 		<li><a href="/">Home</a></li>
-    <li><a href="RevAdvantage">The <span class="REV">REV</span> Advantage</a></li>
-    <li><a href="Services">Services</a></li>
-    <li><a href="TheTeam">The Team</a></li>
-    <li><a href="News">News</a></li>
-    <li><a href="ContactUS">Contact Us</a></li> 
-  </ul>
-</Header> 
 <body>
    
-   <p id="ribbon"> The<span class="REV"> REV </span> Advantage - Turning Distributor Data into Business Intelligence
-    </p>
-
-
-    <!--Row with two equal columns-->
-    <div class="row">
-  </div>
-  
-  
-  <!-- Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive grid system works. -->
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-    <div class="hovereffect">
-        <img class="img-responsive" src="images/Bettie.png" alt="">
-        <div class="overlay">
-           <h2>Hover effect 3</h2>
-           <a class="info" href="#">link here</a>
-        </div>
+<!-- Static navbar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+      <a class="navbar-brand" href="#">Project name</a>
     </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">Nav header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+  <!--/.container-fluid -->
+</nav>
+<div class="container-fluid">
+  <p class="text-muted">This Codepen is part of a short tutorial on Bootstrapious.com - <a href="https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height" target="_blank">https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height</a>.</p>
+  <p class="text-muted">Do you like this pen? Check out also my <a href="https://codepen.io/ondrejsvestka/pen/yXJjLj">Shrinking Navbar pen</a>.</p>
 </div>
 
 </body>
