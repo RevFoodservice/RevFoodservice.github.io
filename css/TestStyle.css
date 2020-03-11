@@ -128,7 +128,7 @@ a {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 3px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
@@ -142,7 +142,7 @@ a {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
+  padding: 3px 20px;
   text-decoration: none;
 }
 
@@ -160,7 +160,7 @@ a {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 3px 20px;
   position: relative;
   user-select: none;
 }
@@ -186,11 +186,11 @@ a {
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 1px;
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -1px;
 }
 
 /* menu btn */
@@ -227,7 +227,7 @@ a {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 3px 30px;
   }
   .header .menu {
     clear: none;
