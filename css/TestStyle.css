@@ -37,10 +37,22 @@
   text-transform: uppercase;
   text-align: center;
   position: relative;
+  font-size: 7px;
+  padding: 2px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/*.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
   font-size: 17px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
 }
+
+
+*/
 
 .hovereffect a.info {
   display: inline-block;
