@@ -160,7 +160,7 @@ a {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 3px 20px;
+  padding: 28px 20px;
   position: relative;
   user-select: none;
 }
@@ -186,11 +186,11 @@ a {
 }
 
 .header .menu-icon .navicon:before {
-  top: 1px;
+  top: 5px;
 }
 
 .header .menu-icon .navicon:after {
-  top: -1px;
+  top: -5px;
 }
 
 /* menu btn */
@@ -227,7 +227,7 @@ a {
     float: left;
   }
   .header li a {
-    padding: 3px 30px;
+    padding: 20px 30px;
   }
   .header .menu {
     clear: none;
@@ -238,3 +238,4 @@ a {
     display: none;
   }
 }
+
