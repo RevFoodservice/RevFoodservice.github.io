@@ -1,211 +1,181 @@
-/* Screen reader only */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
-}
+/* --- Generic Styles --- */
 
-/* Button styling */
-.menu-toggle {
-  display: inline-block;
-  padding: .75em 15px;
-  line-height: 1em;
-  font-size: 1em;
-  color: #333;
-}
-
-.menu-toggle:hover,
-.menu-toggle:focus {
-  color: #c00;
-}
-
-/*
- Default styles + Mobile first
- Offscreen menu style
-*/
-.main-menu {
-  position: absolute;
-  display: none;
-  left: -200px;
-  top: 0;
-  height: 100%;
-	overflow-y: scroll;
-	overflow-x: visible;
-	transition: left 0.3s ease,
-				      box-shadow 0.3s ease;
-	z-index: 999;
-}
-
-.main-menu ul {
-  list-style: none;
+body {
   margin: 0;
-  padding: 2.5em 0 0;
-  /* Hide shadow w/ -8px while 'closed' */
-  -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-     -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-          box-shadow: -8px 0 8px rgba(0,0,0,.5);
-  min-height: 100%;
-  width: 200px;
-  background: #1a1a1a;
-}
-
-.main-menu a {
-  display: block;
-  padding: .75em 15px;
-  line-height: 1em;
-  font-size: 1em;
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #383838;
-}
-
-.main-menu li:first-child a {
-  border-top: 1px solid #383838;
-}
-
-.main-menu a:hover,
-.main-menu a:focus {
-  background: #333;
-  text-decoration: underline;
-}
-
-.main-menu .menu-close {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/*
- On small devices, allow it to toggle...
-*/
-/*
- :target for non-JavaScript
- [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
-*/
-.main-menu:target,
-.main-menu[aria-expanded="true"] {
-  display: block;
-  left: 0;
-  outline: none;
-  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
-  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
-  box-shadow: 3px 0 12px rgba(0,0,0,.25);
-}
-
-.main-menu:target .menu-close,
-.main-menu[aria-expanded="true"] .menu-close {
-  z-index: 1001;
-}
-
-.main-menu:target ul,
-.main-menu[aria-expanded="true"] ul {
-  position: relative;
-  z-index: 1000;
-}
-
-/* 
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
-.main-menu:target + .backdrop,
-.main-menu[aria-expanded="true"] + .backdrop{
-  position: absolute;
-  display: block;  
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 998;
-  background: #000;
-  background: rgba(0,0,0,.85);
-  cursor: default;
-}
-
-@supports (position: fixed) {
-  .main-menu,
-  .main-menu:target + .backdrop,
-  .main-menu[aria-expanded="true"] + .backdrop{
-    position: fixed;
-  }
-}
-
-/*
- Larger screen styling
- Horizontal menu
-*/
-@media (min-width: 768px) {
-  .menu-toggle,
-  .main-menu .menu-close {
-    display: none;
-  }
-  
-  /* Undo positioning of off-canvas menu */
-  .main-menu {
-    position: relative;
-		left: auto;
-		top: auto;
-		height: auto;
-    display: block;
-  }
-  
-  .main-menu ul {
-    display: flex;
-    
-    /* Undo off-canvas styling */
-    padding: 0;
-    -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-            box-shadow: none;
-    height: auto;
-    width: auto;
-    background: none;
-  }
-  
-  .main-menu a {
-    color: #06c;
-    border: 0 !important; /* Remove borders from off-canvas styling */
-  }
-  
-  .main-menu a:hover,
-  .main-menu a:focus {
-    background: none; /* Remove background from off-canvas styling */
-    color: #c00;
-  }
-}
-
-/*
- Demo purposes only
-*/
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+  padding: 0;
 }
 
 header {
-  padding: 20px;
-  display: flex;
-  align-items: baseline;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-article {
-  padding: 30px;
-  max-width: 55em;
-  font-size: 16px;
-  line-height: 1.5em;
+h1 {
+    color: #fff;
+    margin: 5px;
+    padding: 0px;
 }
 
-article h2 {
-  font-weight: 500;
-  font-size: 28px;
+.header {
+    width: 100%;
+    background-color: #313131;
 }
 
-.logo {
-  margin: 0 30px 0 10px;
-  font-size: 1.5em;
+.container {
+    margin: 10px auto;
+    max-width: 1200px;
+    padding: 10px;
+}
+
+/* --- Hamburger Functionality --- */
+
+div.menu-link {
+    padding: 1em;
+    color: #fff;
+}
+
+/* When screen is small, center content and animate transitions. */
+nav[role=navigation] {
+    clear: both;
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    width: 100%;
+    margin: 0px 0px 0px -50px;
+}
+
+/* Positioning when nav does appear in small screen mode */
+nav[role=navigation].open {
+    max-height: 15em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+/* When in small screen, center the list */
+nav[role=navigation] ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav[role=navigation] li a {
+    display: block;
+    padding: 0.8em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Style for larger screens. Hide the menu button, and show the normal navigation menu. */
+/* Credit: https://codepen.io/bradfrost/pen/sHvaz */
+@media screen and (min-width: 35em) {
+    div.menu-link {
+        display: none;
+    }
+
+    nav[role=navigation] {
+        max-height: none;
+        margin: 0px;
+    }
+
+    nav[role=navigation] ul {
+        margin: 0 0 0 -0.25em;
+        border: 0;
+        text-align: right;
+    }
+
+    nav[role=navigation] li {
+        display: inline-block;
+        margin: 0 0.25em;
+    }
+
+    nav[role=navigation] li a {
+        border: 0;
+    }
+}
+
+/* --- Hamburger Appearance & Animation --- */
+/* Credit: https://codepen.io/mblode/pen/evjfn */
+
+$dark: #212121;
+$light: #efefef;
+$color: #b3e5fc;
+
+@mixin btn($left, $top) {
+    width: 30px;
+    top: $top;
+    left: $left;
+    transition-duration: 0.5s;
+}
+
+@mixin icon($height, $width) {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: $height;
+    width: $width;
+    top: 20px;
+    background-color: $light;
+}
+
+@mixin icon-before($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $light;
+    content: "";
+    top: $top;
+}
+
+@mixin icon-after($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $light;
+    content: "";
+    top: $top;
+}
+
+div.menu-link {
+    @include btn(120px, 100px);
+
+    .icon {
+        @include icon(4px, 30px);
+
+        &:before {
+            @include icon-before(4px, 30px, -10px);
+        }
+
+        &:after {
+            @include icon-after(4px, 30px, 10px);
+        }
+    }
+
+    &.open {
+        .icon {
+            transition-duration: 0.5s;
+            background: transparent;
+
+            &:before {
+                transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);
+            }
+
+            &:after {
+                transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px);
+            }
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
 }
