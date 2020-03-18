@@ -128,7 +128,7 @@ a {
 
 .header li a {
   display: block;
-  padding: 3px 3px;
+  padding: 2px 2px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
@@ -141,8 +141,8 @@ a {
 .header .logo {
   display: block;
   float: left;
-  font-size: medium;
-  padding: 3px 3px;
+  font-size: 1em;
+  padding: 1px 20px;
   text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ a {
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition: max-height .1s ease-out;
 }
 
 /* menu icon */
@@ -160,7 +160,7 @@ a {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 48px 40px;
+  padding: 5px 20px;
   position: relative;
   user-select: none;
 }
@@ -186,11 +186,11 @@ a {
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 3px;
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -3px;
 }
 
 /* menu btn */
@@ -222,17 +222,17 @@ a {
 
 /* 48em = 768px */
 
-@media (min-width: 30em) {
+@media (min-width: 48em) {
   .header li {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 2px 2px 2px 2px;
   }
   .header .menu {
     clear: none;
     float: right;
-    max-height: none;
+    max-height: 50px;
   }
   .header .menu-icon {
     display: none;
