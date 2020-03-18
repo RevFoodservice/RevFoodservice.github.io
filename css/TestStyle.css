@@ -112,7 +112,7 @@ a {
 
 .header {
   background-color: #fff;
-  box-shadow: 1px 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -222,7 +222,7 @@ a {
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 30em) {
   .header li {
     float: left;
   }
