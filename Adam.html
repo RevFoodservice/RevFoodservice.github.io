@@ -40,6 +40,17 @@
 
 <script>
   $(document).ready(function() {
+      var $menu = $("#menu"),
+  $menulink = $(".menu-link");
+  
+  $menulink.click(function() {
+    $menulink.toggleClass("open");
+    $menu.toggleClass("open");
+    return false;
+  });
+    
+    
+    
     /* $('#ribbon').css("height", 40);
     $('#ribbon').css("padding-top", 0);*/
 
