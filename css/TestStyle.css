@@ -142,6 +142,7 @@ a {
   position: relative;
   text-align: center;
   cursor: default;
+  padding-top: 20px;
 }
 
 .hovereffect .overlay {
