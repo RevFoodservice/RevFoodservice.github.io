@@ -7,40 +7,69 @@
   <meta name="Keywords" content="Bettie,Lye,Chris,Behmer,Market,Research,Distributor,Consultant,Business,Intelligence">
   <meta name="Description" content="Rev Food Service">
   <title>REV Foodservice</title>
-  <link rel="stylesheet" href="css/Adam.css" />
+  <link rel="stylesheet" href="css/TestStyle.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="css/Test.js"></script>
 
 </head>
 
- 
-<div class="Header">
-<header class="header">
-  <a href="" class="logo">REV FOODSERVICE</a>
-  <input class="menu-btn" type="checkbox" id="menu-btn" />
-  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
- 		<li><a href="/">Home</a></li>
-    <li><a href="RevAdvantage">The <span class="REV">REV</span> Advantage</a></li>
-    <li><a href="Services">Services</a></li>
-    <li><a href="TheTeam">The Team</a></li>
-    <li><a href="News">News</a></li>
-    <li><a href="ContactUS">Contact Us</a></li> 
-  </ul>
+  
+  <div class="container" Style="margin-left: -8px" Style="Padding-right: -20px" >   
+<div class="header">
+  <header>
 
-</header>
-</Div>
-<div class="container">
-  <p>A responsive hamburger menu with flexbox.</p>
-  <p>Works well. Only known issue is that the list is centered within it's flexbox. So, if "NAME" is 200px wide and the hamburger menu is 100px wide, the list will be off center when it expands. Quickest fix is to manually adjust the margin. This takes place on lines 53, 59, 60 and 86. The same problem applies to the vertical margin as well. This hard codes a 50px offset, but if you had a large header then it would need adjusting.</p>
+    <h1>REVFOODSERVUCE</h1>
+
+    <nav id="menu" role="navigation">
+      <ul>
+        <li><a href="">Item 1</a></li>
+        <li><a href="">Item 2</a></li>
+        <li><a href="">Item 3</a></li>
+        <li><a href="">Item 4</a></li>
+        <li><a href="">Item 5</a></li>
+      </ul>
+    </nav>
+
+    <div class="menu-link">
+      <div class="icon"></div>
+    </div>
+
+  </header>
 </div>
+   </div>    
+  
+ <div class="container"  Style="margin-left: -8px"   Style="Padding-right: -20px" > 
+<body>
+   <!--   
+   <p id="ribbon"> The<span class="REV"> REV </span> Advantage - Turning Distributor Data into Business Intelligence
+    </p>
+-->
 
+    <!--Row with two equal columns-->
+    <div class="row" Style="Padding-Top: 10px">
+  
+  
+  <!-- Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive grid system works. -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/Bettie.png" alt="">
+        <div class="overlay">
+           <h2>Hover effect 3</h2>
+           <a class="info" href="#">link here</a>
+        </div>
+    </div>
+</div>
+  </div>
+ADAM 2
+   
+   </body>
+   </div>  
+  
 <script>
-  $(document).ready(function() {
-      var $menu = $("#menu"),
+$(document).ready(function() {
+  var $menu = $("#menu"),
   $menulink = $(".menu-link");
   
   $menulink.click(function() {
@@ -48,17 +77,10 @@
     $menu.toggleClass("open");
     return false;
   });
-    
-    
-    
-    /* $('#ribbon').css("height", 40);
-    $('#ribbon').css("padding-top", 0);*/
+});
 
-    $('#ribbon').css("padding", "0px 0px 20px 0px")
-    $('#ribbon').css("margin", "0px 20px 0px 0px")
 
-    $('body').css("background", "#E8E8E8");
-  })
+    
 </script>
 
 </html>
