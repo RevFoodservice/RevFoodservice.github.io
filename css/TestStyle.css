@@ -4,4 +4,4 @@
   font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
-div { margin-right: -10px; margin-left: -10px; }
+.container { margin: px auto }
