@@ -4,9 +4,4 @@
   font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
-.container, .infinite-footer-container, .page-template-template-builder-php .entry-content > .twitter-share {
-    padding: 0 10px;
-}
-.site-content {
-    padding: 0;
-}
+div { margin-right: -10px; margin-left: -10px; }
