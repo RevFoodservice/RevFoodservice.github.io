@@ -233,7 +233,11 @@ a {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
- 
+ .container {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 10px;
+}
 /* body { padding-top: 40px; } */
   .header li {
     float: left;
