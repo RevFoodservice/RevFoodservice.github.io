@@ -229,6 +229,7 @@ a {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+ body { padding-top: 40px; }
   .header li {
     float: left;
   }
@@ -243,7 +244,7 @@ a {
   .header .menu-icon {
     display: none;
   }
- .TopRow { Padding-Top: 100px;
+  
  }
 }
 
