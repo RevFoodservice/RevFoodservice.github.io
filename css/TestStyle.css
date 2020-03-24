@@ -243,5 +243,7 @@ a {
   .header .menu-icon {
     display: none;
   }
+ .TopRow { Padding-Top: 100px;
+ }
 }
 
