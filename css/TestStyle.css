@@ -122,7 +122,7 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
+  overflow: visable;
   background-color: #fff;
 }
 
