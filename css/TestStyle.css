@@ -231,6 +231,10 @@ a {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+   body {
+    background-color: blue;
+    color: white;
+  }
 /* body { padding-top: 40px; } */
   .header li {
     float: left;
