@@ -25,6 +25,7 @@ a {
 
 .header {
   background-color: #fff;
+  padding-right: 10px;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -33,7 +34,7 @@ a {
 
 .header ul {
   margin: 0;
-  padding:  10px 10px;
+  padding:  0px 0px;
   list-style: none;
   overflow: hidden;
   background-color: #fff;
