@@ -232,8 +232,9 @@ a {
 
 @media (min-width: 48em) {
    body {
-    background-color: blue;
-    color: white;
+    background-color: Yellow;
+    color: Blue;
+     padding-top: 60px;
   }
 /* body { padding-top: 40px; } */
   .header li {
