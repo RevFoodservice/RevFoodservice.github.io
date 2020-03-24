@@ -65,7 +65,16 @@ ADAM 2
     $('#ribbon').css("padding-top", 0);*/
 
     $('#ribbon').css("padding", "0px 0px 0px 0px")
-    $('#ribbon').css("margin", "0px 0px 0px 0px")
+    $('#ribbon').css("margin", "0px 0px 0px 0px")$(document).ready(function() {
+  var $menu = $("#menu"),
+  $menulink = $(".menu-link");
+  
+  $menulink.click(function() {
+    $menulink.toggleClass("open");
+    $menu.toggleClass("open");
+    return false;
+  });
+});
 
     $('body').css("background", "#E8E8E8");
   })
