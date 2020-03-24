@@ -171,7 +171,7 @@ a {
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 100%;
+  width: 18px;
 }
 
 .header .menu-icon .navicon:before,
