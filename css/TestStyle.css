@@ -225,7 +225,7 @@ a {
   transform: scale(1);
 }
 .container {
-    margin: 10px auto;
+    margin: 50px auto;
     max-width: 1200px;
     padding: 10px;
 }
@@ -234,7 +234,7 @@ a {
 
 @media (min-width: 48em) {
  .container {
-    margin: 50px auto;
+    margin: 10px auto;
     max-width: 1200px;
     padding: 10px;
 }
