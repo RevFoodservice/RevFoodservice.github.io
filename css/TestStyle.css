@@ -236,14 +236,14 @@ a {
  .container {
     margin: 10px auto;
     max-width: 1200px;
-    
+    padding: 10px; 
 }
 /* body { padding-top: 40px; } */
   .header li {
     float: left;
   }
   .header li a {
-    
+   padding: 2px 2px 2px 2px; 
   }
   .header .menu {
     clear: none;
