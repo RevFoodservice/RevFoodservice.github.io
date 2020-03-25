@@ -231,12 +231,12 @@ a {
 }
 
 /* 48em = 768px */
-
-@media (min-width: 48em) {
+/* Non Responsive */
+@media (min-width: 32em) {
  .container {
-    margin: 10px auto;
+    margin: 1px auto;
     max-width: 1200px;
-    padding: 50px; 
+    padding: 1px; 
   background-color: blue;
 }
 /* body { padding-top: 40px; } */
