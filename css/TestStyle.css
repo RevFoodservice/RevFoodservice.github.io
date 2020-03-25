@@ -234,7 +234,7 @@ a {
 /* Non Responsive */
 @media (min-width: 32em) {
  .container {
-    margin: 1px auto;
+    margin: 20px auto;
     max-width: 1200px;
     padding: 1px; 
   background-color: blue;
