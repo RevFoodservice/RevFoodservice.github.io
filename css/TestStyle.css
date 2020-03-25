@@ -237,6 +237,7 @@ a {
     margin: 10px auto;
     max-width: 1200px;
     padding: 50px; 
+  background-color: blue;
 }
 /* body { padding-top: 40px; } */
   .header li {
@@ -249,6 +250,7 @@ a {
     clear: none;
     float: right;
     max-height: 50px;
+   background-color: green;
   }
   .header .menu-icon {
     display: none;
