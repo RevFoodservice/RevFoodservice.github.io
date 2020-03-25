@@ -225,9 +225,9 @@ a {
   transform: scale(1);
 }
 .container {
-    margin: 50px auto;
+    margin: 3px auto;
     max-width: 1200px;
-    padding: 10px;
+    padding: 3px;
 }
 
 /* 48em = 768px */
