@@ -231,9 +231,8 @@ a {
 }
 
 /* 48em = 768px */
-/* Non Responsive 
-@media (min-width: 32em) */
-@media only screen and (max-width: 960px) {
+/* Non Responsive */
+@media (min-width: 32em) {
  .container {
     margin: 1px auto;
     max-width: 1200px;
