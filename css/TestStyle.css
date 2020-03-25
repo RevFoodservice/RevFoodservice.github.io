@@ -243,7 +243,7 @@ a {
     float: left;
   }
   .header li a {
-    padding: 2px 2px 2px 2px;
+    
   }
   .header .menu {
     clear: none;
@@ -257,5 +257,5 @@ a {
  }
  
 
-}
+
 
