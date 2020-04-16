@@ -166,7 +166,7 @@ nav ul li a:hover {
 }
 #ribbon {
   width: 930px;
-    color: white;
+    color: black;
   font-family: 'Arial';
   text-align: center;
   background-color: Gainsboro;
@@ -181,7 +181,7 @@ nav ul li a:hover {
 }
 #ribbon span {
   font-size: 16px;
-  color: white;
+  color: black;
 }
 #HomeContent {
   width: 930px;
