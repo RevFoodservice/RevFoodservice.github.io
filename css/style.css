@@ -169,7 +169,7 @@ nav ul li a:hover {
     color: white;
   font-family: 'Arial';
   text-align: center;
-  background: Gainsboro;
+  background-color: Gainsboro;
   height: 25px;
   border-radius: 10px
   font-weight:500;
