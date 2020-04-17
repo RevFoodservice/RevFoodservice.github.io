@@ -1,5 +1,6 @@
-/* Eric Meyer CSS Reset - Begins */
-
+/*   */
+/* top | right | bottom | left  
+padding: 5px 1em 0 2em; */
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
   margin: 0;
   padding: 0;
@@ -566,16 +567,16 @@ embed {
     width: auto;
     margin: 0px 10px 10px 10px;
     /* t r b L */
-    padding: 5px 5px 5px 0px;
+    padding: 1px 1px 0px 0px;
 /*    height: 90px; */
-    font-size: 8px;
+    font-size: 10px;
   }
   /* The font gets larger in the responsive */
   #ribbon span {
     color: black;
     font-weight: 500px;
-    padding: 0px 5px 0px 0px;
-    font-size: 8px;
+    padding: 0px 0px 0px 0px;
+    font-size: 10px;
   }
 
 	.nsl1 {
