@@ -568,14 +568,14 @@ embed {
     /* t r b L */
     padding: 5px 5px 5px 0px;
 /*    height: 90px; */
-    font-size: 2px;
+    font-size: 8px;
   }
   /* The font gets larger in the responsive */
   #ribbon span {
     color: black;
     font-weight: 500px;
     padding: 0px 5px 0px 0px;
-    font-size: 2px;
+    font-size: 8px;
   }
 
 	.nsl1 {
