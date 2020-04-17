@@ -567,7 +567,8 @@ embed {
     margin: 0px 10px 10px 10px;
     /* t r b L */
     padding: 5px 5px 5px 0px;
-    height: 90px;
+/*    height: 90px; */
+    font-size: 2px;
   }
   /* The font gets larger in the responsive */
   #ribbon span {
