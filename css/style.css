@@ -572,9 +572,9 @@ embed {
   /* The font gets larger in the responsive */
   #ribbon span {
     color: black;
-    font-weight: 400px;
+    font-weight: 500px;
     padding: 0px 5px 0px 0px;
-    font-size: 16px;
+    font-size: 12px;
   }
 
 	.nsl1 {
